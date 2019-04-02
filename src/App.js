@@ -3,6 +3,7 @@ import './resources/styles.css';
 
 //COMPONENTS
 import Header from './components/header_footer/Header.js'
+import Featured from './components/featured';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         height: '1500px', background: 'blue' 
       }}>
         <Header />
+        <Featured />
       </div>
     );
   }
